@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="src/styles/main.less">
+</head>
+<body>
+  <header>
+      <h1>Mi Portafolio</h1>
+  </header>
+
+  <div class="container">
+      <div class="profile">
+          <img src="imagenes/foto.jpeg" alt="Foto de Perfil">
+          <h2>Denis Soto</h2>
+      </div>
+
+      <div class="bio">
+          <h3>Biografía</h3>
+          <p>Hola, mi nombre es Denis Soto, un desarrollador web cuya pasión es crear soluciones innovadoras y elegantes. Tengo 
+              experiencia con HTML, CSS, JavaScript y frameworks modernos. Mi objetivo es utilizar mis habilidades para desarrollar 
+              sitios web que brinden una buena experiencia de usuario.
+          </p>
+      </div>
+
+      <div class="contact">
+          <h3>Contacto</h3>
+          <p>
+              <a href="mailto:soto40049@gmail.com">Enviar Correo</a>
+          </p>
+      </div>
+  </div>
+
+  <footer>
+      &copy; 2025 Denis Soto. Todos los derechos reservados.
+  </footer>
+
+  <script>
+      document.querySelector('.contact a').addEventListener('click', function() {
+          alert('Gracias por visitarme. ¡Espero que podamos estar en contacto!');
+      });
+  </script>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
